@@ -1,0 +1,27 @@
+.container {
+    width: 1000px;
+    border: 1px rgb(88, 88, 185) solid;
+    padding: 10px;
+}
+header,nav,section,article,footer {
+    min-height: 50px;
+    border: 1px gray solid;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+aside {
+    min-height: 100px;
+    border: 1px red solid;
+    width: 300px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    flex: 1;
+}
